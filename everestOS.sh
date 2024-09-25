@@ -16,7 +16,7 @@ rm -rf vendor/xiaomi/sm6150-common
 repo init -u https://github.com/ProjectEverest/manifest -b 14 --git-lfs
 # repository sync
 /opt/crave/resync.sh
-# remove framework_native
+# remove frameworks_native
 rm -rf frameworks/native
 # clone device tree
 git clone https://github.com/anush-tree/android_device_xiaomi_mojito.git --depth 1 -b lineage-21.0 device/xiaomi/mojito
@@ -28,6 +28,8 @@ git clone https://github.com/anush-tree/android_hardware_xiaomi.git --depth 1 -b
 # clone vendor tree
 git clone https://gitlab.com/anush-tree/android_vendor_xiaomi_mojito.git --depth 1 -b 14 vendor/xiaomi/mojito
 git clone https://gitlab.com/anush-tree/android_vendor_xiaomi_sm6150-common.git --depth 1 -b 14 vendor/xiaomi/sm6150-common
+# adding source
+git clone https://github.com/K4LCHAKRA/frameworks_native.git --depth 1 -b frameworks/native 
 # setup build environment
 . build/envsetup.sh
 # clean install
