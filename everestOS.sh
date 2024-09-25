@@ -33,7 +33,7 @@ git clone https://github.com/K4LCHAKRA/frameworks_native.git --depth 1 -b 14 fra
 # setup build environment
 . build/envsetup.sh
 # clean install
-make installclean
+# make installclean
 # lunch
 lunch lineage_mojito-userdebug
 # make
