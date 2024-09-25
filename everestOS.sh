@@ -36,6 +36,6 @@ git clone https://github.com/K4LCHAKRA/frameworks_native.git --depth 1 -b 14 fra
 # make installclean
 # Choose a target device
 lunch lineage_mojito-userdebug
-# Compile CipherOS
+# Compile EverestOS
 mka everest -j$(nproc --all)
 
