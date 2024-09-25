@@ -12,6 +12,8 @@ rm -rf hardware/xiaomi
 # remove vendor
 rm -rf vendor/xiaomi/mojito
 rm -rf vendor/xiaomi/sm6150-common
+# remove frameworks/native
+rm -rf frameworks/native
 echo "=================="
 echo "Removing older tree success"
 echo "=================="
