@@ -30,12 +30,12 @@ git clone https://gitlab.com/anush-tree/android_vendor_xiaomi_mojito.git --depth
 git clone https://gitlab.com/anush-tree/android_vendor_xiaomi_sm6150-common.git --depth 1 -b 14 vendor/xiaomi/sm6150-common
 # adding source
 git clone https://github.com/K4LCHAKRA/frameworks_native.git --depth 1 -b 14 frameworks/native 
-# setup build environment
+# Set up environment
 . build/envsetup.sh
 # clean install
 # make installclean
-# lunch
+# Choose a target device
 lunch lineage_mojito-userdebug
-# make
+# Compile CipherOS
 mka everest -j$(nproc --all)
 
