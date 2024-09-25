@@ -12,9 +12,9 @@ rm -rf hardware/xiaomi
 # remove vendor
 rm -rf vendor/xiaomi/mojito
 rm -rf vendor/xiaomi/sm6150-common
-# repository initiation
+# Initialize repo
 repo init -u https://github.com/ProjectEverest/manifest -b 14 --git-lfs
-# repository sync
+# Sync
 /opt/crave/resync.sh
 # remove frameworks_native
 rm -rf frameworks/native
