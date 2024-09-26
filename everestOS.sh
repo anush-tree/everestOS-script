@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # remove local_manifest
-rm -rf .repo/local_manifests/
+rm -rf .repo/local_manifests
 # remove device
 rm -rf device/xiaomi/mojito
 rm -rf device/xiaomi/xiaomi/sm6150-common
