@@ -51,7 +51,7 @@ echo "============="
 . build/envsetup.sh
 echo "====== Envsetup Done ======="
 # clean install
-# make installclean
+make installclean
 # Choose a target device
 lunch lineage_mojito-userdebug
 # Compile EverestOS
