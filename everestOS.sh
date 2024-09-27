@@ -50,10 +50,10 @@ echo "============="
 # Set up environment
 . build/envsetup.sh
 echo "====== Envsetup Done ======="
-# clean install
-make installclean
 # Choose a target device
 lunch lineage_mojito-userdebug
+# clean install
+make installclean
 # Compile EverestOS
 mka everest -j$(nproc --all)
 
