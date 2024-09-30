@@ -43,7 +43,7 @@ git clone https://github.com/anush-tree/android_hardware_xiaomi.git --depth 1 -b
 git clone https://gitlab.com/anush-tree/android_vendor_xiaomi_mojito.git --depth 1 -b 14 vendor/xiaomi/mojito
 git clone https://gitlab.com/anush-tree/android_vendor_xiaomi_sm6150-common.git --depth 1 -b 14 vendor/xiaomi/sm6150-common
 # adding source
-git clone https://github.com/K4LCHAKRA/frameworks_native.git --depth 1 -b 14 frameworks/native
+git clone https://github.com/anush-tree/android_frameworks_native.git --depth 1 -b 14 frameworks/native
 echo "============="
 echo "cloning device specific tree success"
 echo "============="
