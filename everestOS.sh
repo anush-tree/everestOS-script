@@ -18,7 +18,7 @@ echo "=================="
 echo "Removing older tree success"
 echo "=================="
 # Initialize repo
-repo init -u https://github.com/ProjectEverest/manifest -b 14 --git-lfs
+repo init -u https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
