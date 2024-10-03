@@ -56,4 +56,4 @@ echo "====== Envsetup Done ======="
 # make installclean
 # Compile EverestOS
 # mka everest -j$(nproc --all)
-brunch mojito
+brunch mojito userdebug
